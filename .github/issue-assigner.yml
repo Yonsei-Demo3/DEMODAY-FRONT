@@ -1,0 +1,16 @@
+# issue-assigner.yml
+
+addAssignees: true
+assignees:
+  - Hoyoung027
+  - kijoo-l
+
+# 이슈에 자동으로 라벨을 추가하고 싶다면 아래처럼 추가할 수 있습니다.
+addLabels: true
+labels:
+  - feature
+  - debug
+
+# 특정 키워드가 이슈 제목에 포함되면 자동 할당을 건너뜀
+skipKeywords:
+  - wip
