@@ -9,6 +9,12 @@ assignees:
 addLabels: true
 labels:
   - feature
+  - fix
+  - refactor
+  - docs
+  - test
+  - style
+  - chore
   - debug
 
 # 특정 키워드가 이슈 제목에 포함되면 자동 할당을 건너뜀
