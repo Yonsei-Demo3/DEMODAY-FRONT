@@ -1,0 +1,7 @@
+"✨ feat": "feat/*"
+"🐛 fix": "fix/*"
+"🛠 refactor": "refactor/*"
+"📝 docs": "docs/*"
+"✅ test": "test/*"
+"🎨 style": "style/*"
+"👑 chore": "chore/*"
