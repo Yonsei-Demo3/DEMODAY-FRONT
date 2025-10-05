@@ -1,0 +1,20 @@
+'🐛 fix':
+  - '/^\[?fix\b/i'
+
+'✨ feat':
+  - '/^\[?feat\b/i'
+
+'🛠 refactor':
+  - '/^\[?refactor\b/i'
+
+'📝 docs':
+  - '/^\[?docs?\b/i'
+
+'✅ test':
+  - '/^\[?tests?\b/i'
+
+'🎨 style':
+  - '/^\[?style\b/i'
+
+'👑 chore':
+  - '/^\[?chore\b/i'

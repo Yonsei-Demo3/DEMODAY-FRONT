@@ -1,0 +1,27 @@
+name: 'PR auto assign & labeler'
+on:
+  pull_request:
+    types: [opened, ready_for_review, edited, synchronize]
+
+jobs:
+  add-reviews:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: kentaro-m/auto-assign-action@v2.0.0
+        with:
+          configuration-path: .github/pr-auto-assign.yml
+
+  labeler:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/labeler@v6
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        configuration-path: .github/pr-labeler.yml

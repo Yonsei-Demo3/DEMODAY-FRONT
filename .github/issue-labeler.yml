@@ -1,0 +1,21 @@
+"✨ feat":
+  - "^feat\\b"
+  - "^feature\\b"
+
+"🐛 fix":
+  - "^fix\\b"
+
+"📝 docs":
+  - "^docs\\b"
+
+"✅ test":
+  - "^test\\b"
+
+"🛠 refactor":
+  - "^refactor\\b"
+
+"🎨 style":
+  - "^style\\b"
+
+"👑 chore":
+  - "^chore\\b"
