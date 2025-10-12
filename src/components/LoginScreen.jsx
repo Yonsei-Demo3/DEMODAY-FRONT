@@ -3,36 +3,41 @@ import React from "react";
 export default function LoginScreen() {
   return (
     <div className="flex flex-col items-center justify-center w-full h-screen bg-white mx-auto relative font-[Pretendard]">
+      {/* 메뉴 버튼 */}
+      <div className="absolute top-[1rem] right-[1.5rem]">
+        <img src="/icons/menu.png" alt="Menu" className="w-[1.5rem] h-[1.5rem] p-[1.5rem] mt-[5rem]" />
+      </div>
+
       {/* 로고 */}
       <img
         src="/icons/logo.png"
         alt="Logo"
-        className="w-[2.5rem] h-[4.5rem] mb-[1.5rem] mt-[5.6rem]"
+        className="w-[2.5rem] h-[4.5rem] mb-[1.5rem] mt-[7rem]"
       />
 
       {/* 입력 폼 */}
-      <div className="w-[20.4rem] flex flex-col gap-[1.25rem]">
+      <div className="w-[20.4rem] flex flex-col gap-[0.5rem]">
         <input
           type="email"
           placeholder="이메일을 입력"
-          className="w-[20.4rem] h-[3.25rem] border border-[#E0E0E0] rounded-[0.5rem] px-[1rem] text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FA502E]"
+          className="h-[3.25rem] border border-[#E0E0E0] rounded-[0.5rem] px-[1rem] text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FA502E]"
         />
         <input
           type="password"
           placeholder="비밀번호를 입력"
-          className="w-[20.4rem] h-[3.25rem] border border-[#E0E0E0] rounded-[0.5rem] px-[1rem] text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FA502E]"
+          className="h-[3.25rem] border border-[#E0E0E0] rounded-[0.5rem] px-[1rem] text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FA502E]"
         />
 
         {/* 로그인 버튼 */}
         <button
-          className="w-[20.4rem] h-[3.25rem] bg-[#FA502E] text-white text-[1rem] leading-[2.25rem] rounded-[0.5rem] px-[1rem] py-[0.5rem] mt-[2rem] hover:opacity-90 focus:outline-none focus:ring-none transition"
+          className="w-[20.4rem] h-[3.25rem] bg-[#FA502E] text-[#FFFFFF] text-[1rem] leading-[2.25rem] rounded-[0.5rem] px-[1rem] py-[0.5rem] mt-[1rem] hover:opacity-90 focus:outline-none focus:ring-none border-none"
         >
           로그인
         </button>
       </div>
 
       {/* 하단 링크 (회원가입/아이디 찾기) */}
-      <div className="flex items-center justify-end gap-[0.375rem] mt-[0.75rem] text-sm text-gray-500 w-full pr-[1.5rem]">
+      <div className="flex items-center justify-end gap-[0.375rem] mt-[0.75rem] text-sm text-gray-500 w-full pr-[2.5rem]">
         <a
           href="/signup"
           className="hover:text-[#FA502E] no-underline"
