@@ -5,14 +5,14 @@ export default function LoginScreen() {
     <div className="flex flex-col items-center justify-center w-full h-screen bg-white mx-auto relative font-[Pretendard]">
       {/* 메뉴 버튼 */}
       <div className="absolute top-[1rem] right-[1.5rem]">
-        <img src="/icons/menu.png" alt="Menu" className="w-[1.5rem] h-[1.5rem] p-[1.5rem] mt-[5rem]" />
+        <img src="/icons/menu.png" alt="Menu" className="w-[1.5rem] h-[1.5rem] p-[1.5rem] mt-[4rem]" />
       </div>
 
       {/* 로고 */}
       <img
         src="/icons/logo.png"
         alt="Logo"
-        className="w-[2.5rem] h-[4.5rem] mb-[1.5rem] mt-[7rem]"
+        className="w-[2.5rem] h-[4.5rem] mb-[1.5rem] mt-[5rem]"
       />
 
       {/* 입력 폼 */}
@@ -55,7 +55,7 @@ export default function LoginScreen() {
         </a>
       </div>
 
-      {/* SNS 로그인 구분선 및 버튼 (회원가입 바로 아래에 배치) */}
+      {/* SNS 로그인 구분선 및 버튼 */}
       <div className="flex flex-col items-center w-full mt-[1rem]">
         {/* 상단 구분선 */}
         <div className="w-full flex justify-center items-center">
