@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function LoginScreen() {
   return (
@@ -38,13 +39,12 @@ export default function LoginScreen() {
 
       {/* 하단 링크 (회원가입/아이디 찾기) */}
       <div className="flex items-center justify-end gap-[0.375rem] mt-[0.5rem] text-[0.875rem] text-gray-500 w-full pr-[2.5rem]">
-        <a
-          href="/signup"
+        <Link to ="/signup"
           className="hover:text-[#FA502E] no-underline"
           style={{ color: '#B5BBC1' }}
         >
           회원가입
-        </a>
+        </Link>
         <span className="text-[#B5BBC1]">|</span>
         <a
           href="/find-id-pw"

@@ -1,12 +1,18 @@
 import React from "react";
-import LoginPage from "./components/LoginScreen";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LoginScreen from "./components/LoginScreen";
+import SignupScreen from "./components/SignupScreen";
 
 export default function App() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-white">
-      {/* 크기 고정 */}
       <div className="w-[375px] h-[812px] bg-white shadow-md overflow-hidden border border-gray-200">
-        <LoginPage />
+        <Router>
+          <Routes>
+            <Route path="/login" element={<LoginScreen />} />
+            <Route path="/signup" element={<SignupScreen />} />
+          </Routes>
+        </Router>
       </div>
     </div>
   );
