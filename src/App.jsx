@@ -6,7 +6,7 @@ import SignupScreen from "./components/SignupScreen";
 export default function App() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-white">
-      <div className="w-[23.44rem] h-[50.75rem] bg-white shadow-md overflow-hidden border border-gray-200">
+      <div className="w-[23.44rem] h-[45.88rem] bg-white shadow-md overflow-hidden border border-gray-200">
         <Router>
           <Routes>
             {/* 기본 경로로 들어오면 /login으로 자동 이동 */}

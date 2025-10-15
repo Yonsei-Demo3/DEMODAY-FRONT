@@ -9,7 +9,7 @@ export default function LoginScreen() {
       <img
         src="/icons/logo.png"
         alt="Logo"
-        className="w-[2.5rem] h-[4.5rem] mb-[1.5rem] mt-[9rem]"
+        className="w-[2.5rem] h-[4.5rem] mb-[1.5rem] mt-[7.5rem]"
       />
 
       {/* 입력 폼 */}
