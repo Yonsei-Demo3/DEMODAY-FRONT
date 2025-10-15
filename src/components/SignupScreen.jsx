@@ -33,7 +33,7 @@ export default function SignupScreen() {
         {/* 이메일 */}
         <div className="relative">
           <div className="flex flex-col justify-center border border-[#D0D6DD] rounded-[0.5rem] h-[3.75rem] px-[1rem]">
-            <label className="text-[0.75rem] text-[#9EA4AA] font-medium mb-[0.2rem]">
+            <label className="text-[0.625rem] text-[#9EA4AA] font-medium mb-[0.2rem]">
               이메일 <span className="text-[#FA502E]">*</span>
             </label>
             <input
@@ -50,7 +50,7 @@ export default function SignupScreen() {
         {/* 아이디 */}
         <div className="relative">
           <div className="flex flex-col justify-center border border-[#D0D6DD] rounded-[0.5rem] h-[3.75rem] px-[1rem]">
-            <label className="text-[0.75rem] text-[#9EA4AA] font-medium mb-[0.2rem]">
+            <label className="text-[0.625rem] text-[#9EA4AA] font-medium mb-[0.2rem]">
               아이디 <span className="text-[#FA502E]">*</span>
             </label>
             <input
@@ -70,7 +70,7 @@ export default function SignupScreen() {
         {/* 비밀번호 */}
         <div className="relative">
           <div className="flex flex-col justify-center border border-[#D0D6DD] rounded-[0.5rem] h-[3.75rem] px-[1rem] mt-[-0.5rem]">
-            <label className="text-[0.75rem] text-[#9EA4AA] font-medium mb-[0.2rem]">
+            <label className="text-[0.625rem] text-[#9EA4AA] font-medium mb-[0.2rem]">
               비밀번호 <span className="text-[#FA502E]">*</span>
             </label>
             <input

@@ -4,10 +4,6 @@ import { Link } from "react-router-dom";
 export default function LoginScreen() {
   return (
     <div className="flex flex-col items-center w-full h-screen bg-white mx-auto relative font-[Pretendard]">
-      {/* 메뉴 버튼 */}
-      <div className="absolute top-[0rem] right-[1rem]">
-        <img src="/icons/menu.png" alt="Menu" className="w-[1.5rem] h-[1.5rem] p-[1.5rem] mt-[4.5rem]" />
-      </div>
 
       {/* 로고 */}
       <img
